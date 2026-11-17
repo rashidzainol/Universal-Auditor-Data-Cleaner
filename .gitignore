@@ -1,0 +1,5 @@
+build/
+dist/
+__pycache__/
+*.spec
+auditor_config_universal.json

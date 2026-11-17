@@ -273,4 +273,37 @@ For Accountants:
 Developed by Rashid Zainol | JANN Sarawak
 Transforming complex financial data into actionable insights
 
+---
+
+## Developer
+
+### Run from source
+```bash
+pip install -r requirements.txt
+python universal_data_clean.py
+```
+
+### Run tests
+```bash
+python -m unittest discover -s tests -p "test_*.py"
+```
+
+### Build Windows EXE
+```bash
+build.bat
+```
+Output: `dist/UniversalAuditorDataCleaner.exe`
+
+### Project structure
+```
+src/
+  config.py
+  processor.py
+tests/
+  test_processor.py
+universal_data_clean.py   # Tkinter GUI entry point
+requirements.txt
+build.bat
+```
+
 
